@@ -1,0 +1,54 @@
+<ion-header>
+
+  <ion-toolbar class="customHeader">
+    <ion-navbar>
+      <ion-title>
+        Novo Cadastro
+      </ion-title>
+    </ion-navbar>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content padding id="page8">
+  <div class="spacer" style="width:300px;height:24px;" id="novoCadastro2-spacer13"></div>
+  <div id="novoCadastro2-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#5D5D5D;font-size:14px;">
+      Escolha sua senha e pronto
+    </p>
+  </div>
+  <div class="spacer" style="width:300px;height:24px;" id="novoCadastro2-spacer14"></div>
+  <form id="novoCadastro2-form5">
+    <ion-item id="novoCadastro2-input10">
+      <ion-label>
+        Senha
+      </ion-label>
+      <ion-input type="password" placeholder="" name="Nome"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:24px;" id="novoCadastro2-spacer8"></div>
+    <ion-item id="novoCadastro2-input11">
+      <ion-label>
+        Confirmar Senha
+      </ion-label>
+      <ion-input type="password" placeholder="" name="Email"></ion-input>
+    </ion-item>
+    <div class="spacer" style="height:43px; border: none!important;"id="novoCadastro2-spacer15"></div>
+
+    <ion-item name="termos" id="novoCadastro2-checkbox1" style="height:43px;border: none!important;width: 288px;float: right;margin-right: 7px; border: none!important;"  on-click="termoModal()">
+      <ion-label >
+        Aceito os termos e Condições de uso
+      </ion-label>
+    </ion-item>
+
+    <ion-checkbox class="checkbox checkbox-ios" style="
+    margin-top: 10px;
+    margin-left: 20px;
+"></ion-checkbox>
+
+  </form>
+  <div class="spacer" style="width:300px;height:111px;" id="novoCadastro2-spacer12"></div>
+  <button id="novoCadastro2-button11" class="buttonBottomYellow" ion-button color="energized" full large icon-right style="font-size:16px;"
+          on-click="goToOfficina()">
+    Concluir cadastro
+    <ion-icon name="arrow-round-forward"></ion-icon>
+  </button>
+</ion-content>

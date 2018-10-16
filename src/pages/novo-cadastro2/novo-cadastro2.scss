@@ -1,0 +1,37 @@
+page-novo-cadastro2 {
+  .item-block .item-inner {
+
+    border:0.55px solid #2B888F !important;
+    border-radius: 10px;
+  }
+
+  ion-item#novoCadastro2-checkbox1 .item-inner {
+    border: none !important;
+  }
+
+  .item-input ion-label {
+    -webkit-box-flex: initial;
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+    max-width: 200px;
+    pointer-events: none;
+    color: #2B888F;
+  }
+
+  .buttonBottomYellow{
+    font-size: 16px;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    background: linear-gradient(to left, rgb(246,147,32), rgb(252,183,21));
+  }
+
+  ion-label#lbl-22 {
+    font-size: 13px;
+  }
+}

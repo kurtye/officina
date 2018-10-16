@@ -1,0 +1,84 @@
+<ion-header>
+
+  <ion-toolbar class="customHeader" style="
+    height: 85px;
+    background: transparent;
+    background-image: url('assets/img/bgMenu@3x.png');
+    background-size: 100% 100%;
+">
+    <ion-navbar>
+      <ion-title>
+        Novo Cadastro
+      </ion-title>
+    </ion-navbar>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content padding id="page5">
+  <div id="novoCadastro-markdown2" class="show-list-numbers-and-dots">
+    <p style="color:#5D5D5D;font-size:14px;text-align: center;padding: 30px;">
+      Insira as informações abaixo para realizar o seu cadastro
+    </p>
+  </div>
+
+  <form id="novoCadastro-form3">
+    <ion-item id="novoCadastro-input5" class="formBorder">
+      <ion-label>
+        Nome
+      </ion-label>
+      <ion-input type="text" placeholder="" name="Nome"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:24px;" id="novoCadastro-spacer3"></div>
+    <ion-item id="novoCadastro-input6" class="formBorder">
+      <ion-label>
+        Email
+      </ion-label>
+      <ion-input type="text" placeholder="" name="Email"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:24px;" id="novoCadastro-spacer4"></div>
+    <ion-item id="novoCadastro-input7" class="formBorder">
+      <ion-label>
+        Nascimento
+      </ion-label>
+      <ion-input type="text" placeholder="" name="Nascimento"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:24px;" id="novoCadastro-spacer5"></div>
+    <ion-item id="novoCadastro-input8" class="formBorder">
+      <ion-label>
+        Telefone
+      </ion-label>
+      <ion-input type="text" placeholder="" name="Telefone"></ion-input>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:8px;" id="novoCadastro-spacer6"></div>
+  </form>
+  <div id="novoCadastro-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#5D5D5D;font-size:14px;">
+      Sexo
+    </p>
+  </div>
+  <div class="spacer" style="width:300px;height:8px;" id="novoCadastro-spacer7"></div>
+  <form id="novoCadastro-form4">
+    <ion-item class="gender" id="novoCadastro-radio2">
+      <ion-label>
+        Masculino
+      </ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+    <ion-item id="novoCadastro-radio3">
+      <ion-label>
+        Feminino
+      </ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+  </form>
+
+
+  <button id="BtnSendOnePage" ion-button color="balanced" full large icon-right
+          style="font-size:16px;height: 60px;width: 100%;position: absolute;bottom: 0;padding: 0;margin: 0;left: 0;
+          background: linear-gradient(to left, rgb(57 185 195) , rgb(43 136 143), rgb(43 136 143));"
+          on-click="goToNovoCadastro2()">
+    Escolher uma senha
+    <ion-icon name="arrow-round-forward"></ion-icon>
+  </button>
+</ion-content>
+

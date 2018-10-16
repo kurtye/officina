@@ -1,0 +1,72 @@
+page-novo-cadastro {
+
+  .header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .item-ios.item-block .item-inner {
+    padding-right: 8px;
+    padding-right: 8px;
+    border-bottom: none;
+  }
+  .item-input ion-label {
+    -webkit-box-flex: initial;
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+    max-width: 200px;
+    pointer-events: none;
+    color: #2B888F;
+  }
+
+  .item-ios {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 0;
+    position: relative;
+    font-size: 1.7rem;
+    color: #4a878d;
+    background-color: #fff;
+    -webkit-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+  }
+
+  item-md {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 0;
+    position: relative;
+    font-size: 1.7rem;
+    color: #4a878d;
+    background-color: #fff;
+    -webkit-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+  }
+
+  .formBorder {
+    border:0.55px solid #2B888F !important;
+    padding: 0px;
+    border-radius: 10px;
+  }
+
+  button#rb-18-0 {
+    border-top: 1px solid #2B888F !important;
+    border-left: 1px solid #2B888F !important;
+    border-right: 1px solid #2B888F !important;
+    padding: 0px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  ion-label#lbl-22 {
+    font-size: 13px;
+  }
+
+  button#rb-19-0 {
+    border: 1px solid #2B888F !important;
+    padding: 0px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  //BtnSendOnePage{
+  //  background: linear-gradient(to left, rgb(57 185 195) , rgb(43 136 143), rgb(43 136 143));
+  //}
+}

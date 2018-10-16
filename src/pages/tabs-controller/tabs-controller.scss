@@ -1,0 +1,68 @@
+page-tabs-controller {
+  .tab-button[aria-selected=true] {
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(246, 147, 32) , rgb(252, 183, 21));
+    border-radius: 10px;
+  }
+}
+
+.tabs-ios .tabbar {
+
+  background: linear-gradient(to left, rgb(57, 185, 195) , rgb(43, 136, 143), rgb(43, 136, 143))
+}
+
+
+.tabs-ios .tab-button-icon {
+  margin-top: 4px;
+  margin-bottom: 1px;
+  min-width: 35px;
+  height: 30px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+  color: #ffffff;
+}
+
+.tabs-ios .tab-button-text {
+  margin-top: 0;
+  margin-bottom: 1px;
+  min-height: 11px;
+  color: #fff;
+}
+
+
+.tabs-md .tab-button-icon {
+  margin-top: 4px;
+  margin-bottom: 1px;
+  min-width: 35px;
+  height: 30px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+  color: #ffffff;
+}
+
+.tabs-md .tab-button-text {
+  margin-top: 0;
+  margin-bottom: 1px;
+  min-height: 11px;
+  color: #fff;
+}
+
+.tabbar.show-tabbar {
+  bottom: 0px;
+  height: 62px;
+}
+
+page-tabs-controller .tab-button[aria-selected=true] {
+  color: #ffffff;
+  padding-top: 19px;
+  background: -webkit-gradient(linear, left top, right top, from(#f69320), to(#fcb715));
+  background: linear-gradient(to right, #f69320, #fcb715);
+  border-radius: 10px;
+  padding-bottom: 22px;
+}
