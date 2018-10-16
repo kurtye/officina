@@ -1,0 +1,220 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.item-ios h2 {
+  margin: 0 0 2px;
+  font-size: 1.7rem;
+  font-weight: normal;
+  width: 92%;
+  float: left;
+}
+ion-icon {
+  display: inline-block;
+  font-size: 1.2em;
+  color: rgb(57,185,195);
+}
+
+.item-md h2 {
+  margin: 0 0 2px;
+  font-size: 1.7rem;
+  font-weight: normal;
+  width: 92%;
+  float: left;
+}
+
+.modal-wrapper {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.customHeader{
+  height: 85px;
+  background: transparent;
+  background-image: url('../assets/img/bgMenu@3x.png');
+  background-size: 100% 100%;
+}
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+}
+.header-md .toolbar-background-md, .footer-md .toolbar-background-md {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+}
+.button-block {
+  height: 60px !important;
+  display: block;
+  clear: both;
+  width: 100%;
+  contain: strict;
+  margin-top: 25px;
+}
+
+
+
+.toolbar-background-md {
+  border-color: transparent;
+  background: transparent;
+}
+
+.toolbar-background-ios {
+  border-color: transparent;
+  background: transparent;
+}
+
+.item-block {
+  height: 56px;
+}
+
+
+ion-avatar img, ion-thumbnail img {
+  display: block;
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.item-ios ion-thumbnail {
+  min-width: 25px;
+  min-height: 25px;
+}
+
+.item-md ion-thumbnail {
+  min-width: 25px;
+  min-height: 25px;
+}
+
+.list-ios .item-block .item-inner {
+  border-bottom: none;
+}
+
+.list-md .item-block .item-inner {
+  border-bottom: none;
+}
+
+.toolbar-title-md {
+  padding: 0 12px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.toolbar-title-ios {
+  padding: 0 12px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.button-block {
+  height: 60px !important;
+  display: block;
+  clear: both;
+  border-color: rgb(43 ,136, 143);
+  width: 100%;
+  contain: strict;
+  margin-top: 25px;
+  border-radius: 11px;
+  color: rgb(43 ,136, 143);
+}
+
+.input-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  border: #2b888f;
+  -ms-flex: 1;
+  border-radius: 15px;
+  flex: 1;
+  padding: 15px;
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+  -webkit-flex-direction: inherit;
+  -ms-flex-direction: inherit;
+  flex-direction: inherit;
+  -webkit-box-align: inherit;
+  -webkit-align-items: inherit;
+  -ms-flex-align: inherit;
+  align-items: inherit;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  text-overflow: ellipsis;
+}
+button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button {
+  color: white;
+}
+
+.item-input ion-label {
+  -webkit-box-flex: initial;
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  color: #4a878d;
+  flex: initial;
+  max-width: 200px;
+  pointer-events: none;
+}
+.bar-button-menutoggle-ios ion-icon {
+  padding: 0 6px;
+  font-size: 2.8rem;
+  color: #fff;
+}
+.tabbar.show-tabbar {
+  height: 62px;
+  background: linear-gradient(to left, rgb(57, 185, 195) , rgb(43, 136, 143), rgb(43, 136, 143))
+}
+
+.toolbar-title {
+  display: block;
+  font-size: 16px !important;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ion-icon {
+  &[class*="appname-"] {
+    // Instead of using the font-based icons
+    // We're applying SVG masks
+    mask-size: contain;
+    mask-position: 50% 50%;
+    mask-repeat: no-repeat;
+    background: currentColor;
+    width: 1em;
+    height: 1em;
+  }
+  // custom icons
+  &[class*="appname-customiconHome"] {
+    mask-image: url(../assets/img/icons/home.svg);
+  }
+  &[class*="appname-customiconServicos"] {
+    mask-image: url(../assets/img/icons/servicos.svg);
+  }
+  &[class*="appname-customiconNovidades"] {
+    mask-image: url(../assets/img/icons/novidades.svg);
+  }
+  &[class*="appname-customiconMenu"] {
+    mask-image: url(../assets/img/icons/menu.svg);
+  }
+}
+
