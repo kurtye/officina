@@ -1,0 +1,35 @@
+page-login-email {
+
+
+    .item-block .item-inner {
+
+      border:0.55px solid #2B888F !important;
+      border-radius: 10px;
+    }
+
+    ion-item#novoCadastro2-checkbox1 .item-inner {
+      border: none !important;
+    }
+
+    .item-input ion-label {
+      -webkit-box-flex: initial;
+      -webkit-flex: initial;
+      -ms-flex: initial;
+      flex: initial;
+      max-width: 200px;
+      pointer-events: none;
+      color: #2B888F;
+    }
+
+  .buttonBottomYellow {
+    height: 60px;
+    background: -webkit-gradient(linear, right top, left top, from(#f69320), to(#fcb715));
+    background: linear-gradient(to left, #f69320, #fcb715);
+  }
+
+    ion-label#lbl-22 {
+      font-size: 13px;
+    }
+
+
+}
